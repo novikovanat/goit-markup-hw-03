@@ -128,6 +128,8 @@ body {
 
 ul {
   list-style-type: none;
+  margin: 0px, 0px;
+  padding: 0px;
 }
 
 address {
@@ -143,17 +145,26 @@ address {
 .link:focus {
   color: var(--accent-color);
 }
+.header {
+  background-color: var(--white);
+}
+.container {
+  width: 1200px;
+  height: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .header-information {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  background-color: greenyellow;
   display: flex;
   /*justify-content: space-between;*/
   align-items: center;
-  height: 80px;
 }
 
 /*.navigation-box {
@@ -164,8 +175,8 @@ address {
   display: flex;
   margin-left: 93px;
 }
-.navigation-menu-item:not(:last-child) {
-  margin-right: 50px;
+.navigation-menu-item:not(:first-child) {
+  margin-left: 50px;
 }
 
 .navigation-link {
@@ -288,7 +299,6 @@ h4.section-title {
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
-  margin-left: 40px;
 }
 .logo-color-header {
   color: #000000;
