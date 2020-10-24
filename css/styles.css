@@ -149,23 +149,35 @@ address {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  background-color: var(--white);
+  background-color: greenyellow;
   display: flex;
+  /*justify-content: space-between;*/
+  align-items: center;
+  height: 80px;
 }
 
-.navigation {
+/*.navigation-box {
   display: flex;
-}
+  align-items: center;}*/
+
 .navigation-menu {
   display: flex;
+  margin-left: 93px;
+}
+.navigation-menu-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .navigation-link {
   color: var(--black);
 }
+.header-contacts li + li {
+  margin-left: 50px;
+}
 
 .header-contacts {
   display: flex;
+  margin-left: auto;
 }
 
 .header-address-link {
@@ -275,8 +287,8 @@ h4.section-title {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--accent-color);
+  margin-left: 40px;
 }
 .logo-color-header {
   color: #000000;
