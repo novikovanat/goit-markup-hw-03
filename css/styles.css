@@ -270,7 +270,7 @@ address {
 }
 
 .gallery {
-  margin-bottom: 94px;
+padding-bottom: 94px;
 }
 .gallery-item:not(:last-child) {
   margin-right: 30px;
@@ -303,6 +303,7 @@ h1.section-title {
   text-transform: uppercase;
   color: var(--white);
   margin: 0px 0px;
+  letter-spacing: 0.06em;
 }
 
 h2.section-title {
