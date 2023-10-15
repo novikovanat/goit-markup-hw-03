@@ -21,7 +21,12 @@ body {
 }
 .display-flex {
   display: flex;
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
 }
+
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
