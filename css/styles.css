@@ -16,7 +16,12 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-
+.header-border {
+  border-bottom: 1px solid #e7e9fc;
+}
+.display-flex {
+  display: flex;
+}
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
