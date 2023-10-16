@@ -69,7 +69,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
+  padding: 24px 0 24px;
 }
 
 .navigation-menu-link:focus,
@@ -78,10 +78,12 @@ body {
 }
 
 .headline-section {
+  padding: 188px 0 188px;
   background-color: #2e2f42;
   letter-spacing: 0.02em;
 }
 .headline {
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -90,6 +92,7 @@ body {
 }
 
 .headline-button {
+  display: block;
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -97,6 +100,11 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
 }
 .headline-button:hover,
 .headline-button:focus {
