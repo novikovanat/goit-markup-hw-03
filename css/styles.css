@@ -16,10 +16,17 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+.contaner {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .header-border {
   border-bottom: 1px solid #e7e9fc;
 }
 .display-flex {
+  gap: 40px;
   display: flex;
   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
@@ -27,6 +34,9 @@ body {
   display: -webkit-flex; /* NEW - Chrome */
 }
 
+.align-items-center {
+  align-items: center;
+}
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -35,6 +45,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   letter-spacing: 0.03em;
+  margin-right: 76px;
 }
 .logo-studio {
   color: #2e2f42;
@@ -57,6 +68,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .navigation-menu-link:focus,
