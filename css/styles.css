@@ -27,7 +27,6 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 .display-flex {
-  gap: 40px;
   display: flex;
   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
@@ -110,8 +109,31 @@ body {
 .headline-button:focus {
   background-color: #404bbf;
 }
+.padding {
+  padding: 120px 0 120;
+}
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.margin-features {
+  gap: 24px;
+}
+.flex-features-list {
+  flex-basis: calc((100% - 72px) / 4);
+}
 .feature-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
