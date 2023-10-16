@@ -126,19 +126,20 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.margin-features {
+.gap-24 {
   gap: 24px;
 }
 .flex-features-list {
   flex-basis: calc((100% - 72px) / 4);
 }
-.feature-title {
+.h3-title {
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
 }
 
 .feature-description {
@@ -157,9 +158,11 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .team-card {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 .name-title {
   font-weight: 500;
@@ -167,6 +170,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
 }
 
 .team-role {
@@ -179,6 +183,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 .footer .portfolio-paragraph {
   color: #f4f4fd;
