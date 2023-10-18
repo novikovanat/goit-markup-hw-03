@@ -67,7 +67,8 @@ body {
 }
 
 .navigation-menu {
-  padding: 24px 0 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -144,11 +145,11 @@ body {
   row-gap: 48px;
 }
 .width-calc-3 {
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 .width-calc-4 {
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: alc((100% - 3 * 24px) / 4);
 }
 .h3-title {
   margin-bottom: 8px;
@@ -222,7 +223,7 @@ body {
   color: #f4f4fd;
 }
 
-footer.logo {
+footer .logo {
   display: inline-block;
   margin-bottom: 16px;
 }
