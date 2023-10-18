@@ -1,7 +1,8 @@
 a {
   text-decoration: none;
 }
-ul {
+ul,
+menu {
   list-style: none;
 }
 img {
@@ -73,6 +74,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.address .navigation-menu {
+  font-weight: 400;
 }
 
 .navigation-menu-link:focus,
