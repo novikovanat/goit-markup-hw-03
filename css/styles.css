@@ -151,10 +151,10 @@ body {
 .width-calc-3 {
   flex-basis: calc((100% - 3 * 16px) / 3);
 }
-
+/* 
 .width-calc-4 {
-  flex-basis: calc((100% - 72px) / 4);
-}
+  width: calc((100% - 72px) / 4);
+} */
 .h3-title {
   margin-bottom: 8px;
   font-weight: 500;
@@ -214,14 +214,15 @@ body {
   color: #434455;
   text-align: center;
 }
-.footer .portfolio-paragraph {
-  color: #f4f4fd;
-  max-width: 264px;
-}
 
 .footer {
   background-color: #2e2f42;
   padding: 100px 0 100px;
+}
+
+.footer .portfolio-paragraph {
+  color: #f4f4fd;
+  max-width: 264px;
 }
 .span-logo-white {
   color: #f4f4fd;
