@@ -149,7 +149,7 @@ body {
 }
 
 .width-calc-4 {
-  flex-basis: alc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .h3-title {
   margin-bottom: 8px;
