@@ -44,6 +44,7 @@ body {
   display: -ms-flexbox; /* TWEENER - IE 10 */
   display: -webkit-flex; /* NEW - Chrome */
   gap: 40px;
+  padding: 24px 0;
 }
 .display-flex-gap-40 {
   display: flex;
