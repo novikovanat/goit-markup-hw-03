@@ -176,6 +176,8 @@ body {
   column-gap: 24px;
   flex-wrap: wrap;
   row-gap: 48px;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 .width-calc {
   flex-basis: calc((100% - 3 * 16px) / 3);
@@ -184,6 +186,7 @@ body {
 .width-calc-portfolio {
   width: calc((100% - 48px) / 3);
 }
+
 .hthree-title {
   margin-bottom: 8px;
   font-weight: 500;
