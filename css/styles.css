@@ -185,7 +185,7 @@ body {
 .width-calc-4 {
   width: calc((100% - 72px) / 4);
 } */
-.h3-title {
+.hthree-title {
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
