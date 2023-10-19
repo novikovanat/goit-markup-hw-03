@@ -181,10 +181,10 @@ body {
 .width-calc-3 {
   flex-basis: calc((100% - 3 * 16px) / 3);
 }
-/* 
-.width-calc-4 {
-  width: calc((100% - 72px) / 4);
-} */
+
+.width-calc-portfolio {
+  width: calc((100% - 48px) / 3);
+}
 .hthree-title {
   margin-bottom: 8px;
   font-weight: 500;
