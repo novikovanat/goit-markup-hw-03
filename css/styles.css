@@ -178,7 +178,7 @@ body {
   column-gap: 24px;
   row-gap: 48px;
 }
-.width-calc-3 {
+.width-calc {
   flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
