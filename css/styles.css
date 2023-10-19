@@ -36,7 +36,7 @@ body {
   display: -webkit-flex; /* NEW - Chrome */
 }
 
-.display-flex-teamleast {
+.display-flex-gap-24 {
   display: flex;
 
   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -44,6 +44,15 @@ body {
   display: -ms-flexbox; /* TWEENER - IE 10 */
   display: -webkit-flex; /* NEW - Chrome */
   gap: 24px;
+}
+.display-flex-gap-40 {
+  display: flex;
+
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
+  gap: 40px;
 }
 .align-items-center {
   align-items: center;
@@ -62,9 +71,7 @@ body {
 .logo-studio {
   color: #2e2f42;
 }
-.gap-40 {
-  gap: 40px;
-}
+
 .address {
   font-style: normal;
   color: #434455;
@@ -149,9 +156,7 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.gap-24 {
-  gap: 24px;
-}
+
 .portfolio-list {
   column-gap: 24px;
   flex-wrap: wrap;
