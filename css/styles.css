@@ -36,7 +36,7 @@ body {
   display: -webkit-flex; /* NEW - Chrome */
 }
 
-.display-flex-gap-24 {
+.menu {
   display: flex;
 
   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
