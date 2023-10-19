@@ -105,7 +105,10 @@ body {
 .address .navigation-menu {
   font-weight: 400;
 }
-
+.navigation-menu-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .navigation-menu-link:focus,
 .navigation-menu-link:hover {
   color: #404bbf;
