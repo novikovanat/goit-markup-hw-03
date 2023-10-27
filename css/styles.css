@@ -131,6 +131,7 @@ body {
   text-align: center;
   color: #ffffff;
   letter-spacing: 0.02em;
+  margin: auto;
 }
 
 .headline-button {
@@ -147,6 +148,7 @@ body {
   border: none;
   background-color: #4d5ae5;
   border-radius: 4px;
+  margin: auto;
 }
 .headline-button:hover,
 .headline-button:focus {
